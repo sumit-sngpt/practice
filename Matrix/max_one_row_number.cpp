@@ -2,7 +2,10 @@
 
 using namespace std;
 
-// Print row number that contains max number of Ones
+/* 
+Print row number that contains max number of 1s where in a row once 1s starts 
+its all 1s after that.
+*/
 int find_max_one_row(int mat[][6], int rows, int cols) {
     int last_index = cols;
     int row_number = 0;
